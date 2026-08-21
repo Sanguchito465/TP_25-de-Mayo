@@ -1,0 +1,228 @@
+
+/* =========================================================
+   SITIO WEB: 25 DE MAYO - REVOLUCIÓN DE MAYO
+   Hoja de estilos externa
+   ========================================================= */
+
+:root {
+  --azul: #174a7e;
+  --azul-claro: #75aadb;
+  --celeste: #dcecf8;
+  --crema: #f7f1e6;
+  --dorado: #c49a45;
+  --marron: #4d3c2a;
+  --blanco: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--crema);
+  color: #252525;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.7;
+}
+
+header {
+  /* Fondo de imagen solicitado en la consigna */
+  background:
+    linear-gradient(rgba(10, 40, 70, .72), rgba(10, 40, 70, .72)),
+    url("../img/cabildo.svg") center/cover no-repeat;
+  min-height: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 6vw, 4.8rem);
+  margin: 0;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 850px;
+  margin: 18px auto;
+}
+
+nav {
+  /* Fondo de color en el Nav */
+  background: var(--azul);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 12px rgba(0,0,0,.2);
+}
+
+.nav-inner {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: bold;
+}
+
+nav a:hover { background: #0d3459; }
+
+main {
+  max-width: 1150px;
+  margin: auto;
+  padding: 35px 20px 60px;
+}
+
+section {
+  margin-bottom: 42px;
+}
+
+h2 {
+  color: var(--azul);
+  border-left: 7px solid var(--dorado);
+  padding-left: 12px;
+}
+
+h3 { color: var(--marron); }
+
+p { max-width: 900px; }
+
+.destacado {
+  background: white;
+  border: 1px solid #d8c9ad;
+  border-radius: 14px;
+  padding: 24px;
+  margin: 25px 0;
+  box-shadow: 0 6px 18px rgba(50,40,20,.08);
+}
+
+#importancia {
+  border-top: 5px solid var(--azul-claro);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.card-historia {
+  background: white;
+  border-radius: 14px;
+  padding: 22px;
+  border-top: 5px solid var(--azul);
+  box-shadow: 0 5px 16px rgba(0,0,0,.08);
+}
+
+img, .media {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+figure { margin: 0; }
+
+figcaption {
+  font-size: .9rem;
+  color: #5e5e5e;
+  margin-top: 7px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 13px;
+  border: 1px solid #cfc3ae;
+  text-align: left;
+}
+
+th {
+  background: var(--azul);
+  color: white;
+}
+
+blockquote {
+  border-left: 5px solid var(--dorado);
+  background: #fff;
+  padding: 18px 22px;
+  margin: 25px 0;
+  font-style: italic;
+}
+
+footer {
+  /* Fondo de color en el Footer */
+  background: var(--marron);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.btn-patria {
+  display: inline-block;
+  background: var(--azul);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-patria:hover { background: #0d3459; }
+
+.ia-badge {
+  display: inline-block;
+  background: #ece3cf;
+  color: #4d3c2a;
+  border-radius: 30px;
+  padding: 5px 12px;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.timeline {
+  border-left: 5px solid var(--azul);
+  margin: 25px 0;
+  padding-left: 25px;
+}
+
+.timeline article {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.timeline article::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: var(--dorado);
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  left: -35px;
+  top: 7px;
+}
+
+.small { font-size: .92rem; color: #555; }
+
+@media (max-width: 650px) {
+  nav a { padding: 10px 11px; font-size: .9rem; }
+  header { min-height: 330px; }
+  .hero h1 { font-size: 2.5rem; }
+}

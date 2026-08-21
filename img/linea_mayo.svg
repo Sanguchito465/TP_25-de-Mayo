@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+    <rect width="800" height="500" fill="#f7f1e6"/>
+    <rect x="0" y="0" width="800" height="70" fill="#1f4e79"/>
+    <text x="400" y="47" text-anchor="middle" font-family="Georgia" font-size="30" fill="white">Línea de tiempo de Mayo</text>
+    
+        <line x1="90" y1="270" x2="710" y2="270" stroke="#6d5638" stroke-width="10"/>
+        <g fill="#fff" stroke="#6d5638" stroke-width="7">
+          <circle cx="120" cy="270" r="24"/><circle cx="280" cy="270" r="24"/><circle cx="440" cy="270" r="24"/><circle cx="600" cy="270" r="24"/>
+        </g>
+        <g font-family="Georgia" text-anchor="middle" fill="#4d3c2a">
+          <text x="120" y="220" font-size="28">1808</text><text x="280" y="220" font-size="28">18–22 MAY</text>
+          <text x="440" y="220" font-size="28">24 MAY</text><text x="600" y="220" font-size="28">25 MAY</text>
+          <text x="120" y="330" font-size="20">Crisis en España</text><text x="280" y="330" font-size="20">Semana de Mayo</text>
+          <text x="440" y="330" font-size="20">Crisis de la Junta</text><text x="600" y="330" font-size="20">Primera Junta</text>
+        </g>
+        
+    <text x="400" y="475" text-anchor="middle" font-family="Arial" font-size="18" fill="#4d3c2a">De la crisis española a la Primera Junta.</text>
+    </svg>

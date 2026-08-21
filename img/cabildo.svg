@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+    <rect width="800" height="500" fill="#f7f1e6"/>
+    <rect x="0" y="0" width="800" height="70" fill="#1f4e79"/>
+    <text x="400" y="47" text-anchor="middle" font-family="Georgia" font-size="30" fill="white">El Cabildo de Buenos Aires</text>
+    
+        <rect x="90" y="135" width="620" height="250" rx="4" fill="#efe1c5" stroke="#6d5638" stroke-width="8"/>
+        <rect x="325" y="75" width="150" height="70" fill="#d9c49d" stroke="#6d5638" stroke-width="7"/>
+        <polygon points="315,75 485,75 400,25" fill="#d9c49d" stroke="#6d5638" stroke-width="7"/>
+        <rect x="355" y="190" width="90" height="195" fill="#b9a27a" stroke="#6d5638" stroke-width="6"/>
+        <rect x="105" y="180" width="65" height="170" fill="#d9c49d"/><rect x="630" y="180" width="65" height="170" fill="#d9c49d"/>
+        <g fill="#fffaf0" stroke="#6d5638" stroke-width="5">
+          <path d="M190 385v-125q0-45 38-45t38 45v125z"/><path d="M270 385v-125q0-45 38-45t38 45v125z"/>
+          <path d="M432 385v-125q0-45 38-45t38 45v125z"/><path d="M512 385v-125q0-45 38-45t38 45v125z"/>
+        </g>
+        <circle cx="400" cy="110" r="12" fill="#6d5638"/>
+        
+    <text x="400" y="475" text-anchor="middle" font-family="Arial" font-size="18" fill="#4d3c2a">Escenario central de los sucesos de Mayo.</text>
+    </svg>

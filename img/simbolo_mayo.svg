@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+    <rect width="800" height="500" fill="#f7f1e6"/>
+    <rect x="0" y="0" width="800" height="70" fill="#1f4e79"/>
+    <text x="400" y="47" text-anchor="middle" font-family="Georgia" font-size="30" fill="white">Símbolos de Mayo</text>
+    
+        <circle cx="400" cy="250" r="155" fill="#fff" stroke="#6d5638" stroke-width="8"/>
+        <circle cx="400" cy="250" r="75" fill="#f2c94c" stroke="#6d5638" stroke-width="6"/>
+        <g fill="#fff" stroke="#6d5638" stroke-width="4">
+          <path d="M400 80l28 70-28-10-28 10z"/><path d="M400 420l-28-70 28 10 28-10z"/>
+          <path d="M230 250l70-28-10 28 10 28z"/><path d="M570 250l-70 28 10-28-10-28z"/>
+        </g>
+        <path d="M270 170 Q400 110 530 170" fill="none" stroke="#75aadb" stroke-width="35"/>
+        <path d="M270 330 Q400 390 530 330" fill="none" stroke="#75aadb" stroke-width="35"/>
+        
+    <text x="400" y="475" text-anchor="middle" font-family="Arial" font-size="18" fill="#4d3c2a">Ilustración digital original para el proyecto.</text>
+    </svg>
