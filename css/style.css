@@ -30,7 +30,7 @@ header {
   /* Fondo de imagen solicitado en la consigna */
   background:
     linear-gradient(rgba(10, 40, 70, .72), rgba(10, 40, 70, .72)),
-    url("../img/cabildo.svg") center/cover no-repeat;
+    url("../img/Cabildo\ bien.jpg") center/cover no-repeat;
   min-height: 390px;
   display: flex;
   align-items: center;
